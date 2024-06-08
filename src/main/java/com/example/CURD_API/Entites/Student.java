@@ -15,11 +15,17 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product {
+public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    private Double price;
+    private String firstName;
+    private String lastName;
+    private Integer standard;
+    private String schoolName;
+    private String address;
+    private String email;
+    private String phone;
+
 
 }
